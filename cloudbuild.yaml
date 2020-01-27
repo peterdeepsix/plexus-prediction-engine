@@ -9,5 +9,3 @@ steps:
     args: ['push', 'gcr.io/$PROJECT_ID/predict']
 images:
   - 'gcr.io/$PROJECT_ID/predict'
-substitutions:
-    _EXPORT_BUCKET: gs://my-bucket/path/to/export/exporter
